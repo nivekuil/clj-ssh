@@ -13,6 +13,6 @@
                  [com.jcraft/jsch.agentproxy.pageant ~agentproxy-version]
                  [com.jcraft/jsch.agentproxy.core ~agentproxy-version]
                  [com.jcraft/jsch.agentproxy.jsch ~agentproxy-version]
-                 [com.jcraft/jsch "0.1.53"]]
+                 [com.github.mwiede/jsch "0.1.64"]]
   :jvm-opts ["-Djava.awt.headless=true"]
   :profiles {:provided {:dependencies [[org.clojure/clojure "1.10.1"]]}})
